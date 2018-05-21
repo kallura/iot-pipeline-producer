@@ -1,0 +1,15 @@
+version: "3.6"
+services:
+  moquette:
+    image: renarj/mqtt
+    ports:
+       - "1883:1883"
+       - "9090:9090"
+    restart: always
+  iot-publisher:
+    build: .
+    image: iotpublisher
+    ports:
+      - "8080:8080"
+    depends_on:
+      - moquette

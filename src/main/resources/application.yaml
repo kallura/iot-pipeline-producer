@@ -1,0 +1,17 @@
+mqtt:
+  broker: tcp://moquette:1883
+  client:
+    id: IoTDevicesPublisher
+  qos: 2
+temperature:
+  topic: temperature
+  device:
+    id: TemperatureDevice
+power:
+  topic: power
+  device:
+    id: PowerDevice
+energy:
+  topic: energy
+  device:
+    id: EnergyDevice
