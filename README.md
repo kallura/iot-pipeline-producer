@@ -7,7 +7,7 @@ Publishing the statistic data for next stub devices
 3. temperature device 
 
 to MQTT broker topics : energy_topic, power_topic, temperature_topic
-#####Data format
+#### Data format
 Energy model:
 
 ````
@@ -35,7 +35,7 @@ Temperature model:
 	"timestamp": "2018-05-17T13:58:21.004"
 }
 ````
-#####Prerequisites
+#### Prerequisites
 You will need to install next software, before you'll run app: 
 
 1. java v1.8
@@ -60,7 +60,7 @@ apt-get install git
 sudo apt-get install docker-ce
 
 ```
-#####Installing
+#### Installing
 Before you will use the app you will need to execute next commands:
 
 ```
